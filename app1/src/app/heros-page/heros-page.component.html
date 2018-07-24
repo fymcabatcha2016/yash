@@ -1,5 +1,5 @@
 <p>
- Welcome {{player}}
+ Welcome {{studentVar.name}}
 </p>
 <br>
 <ul>
@@ -7,3 +7,7 @@
     {{hero}}
   </li>
 </ul>
+<h1>the value of text is {{dispText}}</h1>
+<form name="form1">
+  <input type="text" name="dispText" [(ngModel)]='dispText'>
+</form>
